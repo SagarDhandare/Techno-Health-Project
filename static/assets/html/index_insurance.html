@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Medical Insurance Cost Model</title>
+
+</head>
+<body>
+    <div style="color:black;" class="container">
+        <h2 class='container-heading'><span class="heading_font">Medical Insurance Cost Predicter</span></h2>
+    </div>
+
+    <div style="color:black;" class="ml-container">
+        <form action="{{ url_for('predict') }}" method="POST">
+            <br>
+            <br>
+            <h3>Age</h3>
+            <input id="first" name="age" placeholder="in year" required="required">
+            <br>
+            <h3>Sex</h3>
+            <select id="second" class="form-input align-center" name="sex">
+                <option value="None">Sex</option>
+                <option value="sex_male">Male</option>
+                <option value="sex_female">Female</option>
+            </select>
+            <br>
+            <h3>Smoker</h3>
+            <select id="third" class="form-input align-center" name="smoker">
+                <option value="None">Smoker</option>
+                <option value="smoker_yes">Yes</option>
+                <option value="smoker_no">No</option>
+            </select>
+            <br>
+            <h3>Body Mass Index</h3>
+            <input id="fourth" name="bmi" placeholder="bmi" required="required">
+            <br>
+            <h3>Number of Childrens?</h3>
+            <input id="fifth" name="children" placeholder="0, 1, 2, 3, 4, 5" required="required">
+            <br>
+            <h3>Region</h3>
+            <select id="sixth" class="form-input align-center" name="region">
+                <option value="None">Region</option>
+                <option value="region_northwest">North-West</option>
+                <option value="region_southeast">South-East</option>
+                <option value="region_southwest">South-West</option>
+                <option value="region_northeast">North-East</option>
+            </select>
+            <br>
+            <br>
+            <br>
+            <button id="sub" type="submit ">Submit</button>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p class='footer-description'>©2021 Sagar Dhandare</p>
+
+        </form>
+    </div>
+
+
+
+
+<style>
+
+/* Background Image */
+body
+{
+background-image:url("https://raw.githubusercontent.com/SagarDhandare/Medical-Insurance-Cost-Project/main/Images/health-insurance.jpg");
+height: 100%;
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+
+}
+
+/* Color */
+body{
+	font-family: Arial, Helvetica,sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+
+/* Heading Font */
+.container-heading{
+    margin: 0;
+}
+
+.heading_font{
+    color: #black;
+	font-family: 'Pacifico', cursive;
+	font-size: 50px;
+	font-weight: normal;
+}
+
+
+
+/* Box */
+        #first {
+            border-radius: 14px;
+            height: 25px;
+            width: 100px;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        #second {
+            border-radius: 14px;
+            height: 25px;
+            width: 120px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #third {
+            border-radius: 14px;
+            height: 25px;
+            width: 140px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #fourth {
+            border-radius: 14px;
+            height: 25px;
+            width: 80px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #fifth {
+            border-radius: 14px;
+            height: 25px;
+            width: 160px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #sixth {
+            border-radius: 14px;
+            height: 25px;
+            width: 140px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+
+
+/* Submit Button */
+#sub {
+            width: 120px;
+            height: 43px;
+            text-align: center;
+            border-radius: 14px;
+            font-size: 18px;
+        }
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</style>
+
+
+</body>
+
+</html>
+
+
