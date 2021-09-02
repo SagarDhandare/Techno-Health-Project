@@ -17,30 +17,43 @@ This data set contains 416 liver patient records and 167 non liver patient recor
 
 Use these patient records to determine which patients have liver disease and which ones do not.
 
-## Dataset
-[Liver Disease Dataset](https://www.kaggle.com/uciml/indian-liver-patient-records)
-
 
 ## Technology used
 - Python
 - Machine Learning
 - Pandas
 - Numpy
+- Matplotlib
+- Seaborn
+- RandomizedSearchCV
+- GridSearchCV
 - Scikit-learn
 - Flask
 - HTML
 - CSS
 - Pycharm
-- Heroku
+- Firebase
 
   
+## Datasets used
+
+[Heart Disease](https://www.kaggle.com/ronitf/heart-disease-uci#)
+
+[Liver Disease](https://www.kaggle.com/uciml/indian-liver-patient-records)
+
+[Diabetes Disease](https://www.kaggle.com/uciml/pima-indians-diabetes-database)
+
+[Stroke Prediction](https://www.kaggle.com/fedesoriano/stroke-prediction-dataset)
+
+[Breast Cancer Disease](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data)
+
+[Chronic Kidney Disease](https://www.kaggle.com/mansoordaku/ckdisease)
+
+[Medical Insurance Cost](https://github.com/SagarDhandare/Techno-Health-Project/blob/main/Datasets/Medical_data.csv)
 
 
-  
-## Related
 
-Here are some related projects
-
+## Projects used in Techno Health App
 
 [Heart Disease](https://github.com/SagarDhandare/Heart-Disease-Project)
 
@@ -56,13 +69,19 @@ Here are some related projects
 
 [Medical Insurance Cost](https://github.com/SagarDhandare/Medical-Insurance-Cost-Project)
   
+  
 ## Advantages of AI in Healthcare
 
 i. Improved accessibility
+
 ii. Increased speed and reduced costs
+
 iii. Enhanced human abilities
+
 iv. Removing some amount of dependencies on the doctors
+
 v. To help out the poor and helpless people with the normal medical checkup
+
 
 ## Feedback
 
