@@ -1,4 +1,4 @@
-# Techno Health Project Project ❤
+# Techno Health Project ❤
 All Health Care Model At One Place.
 This repository consists of files required to deploy a Machine Learning Web App created with Flask and deployed using Heroku platform.
 
@@ -7,9 +7,10 @@ This repository consists of files required to deploy a Machine Learning Web App 
 
 • https://techno-health-2727b.web.app/
 
-## Demo
-<img src="">
-<img src="">
+
+## Preview
+
+![App Screenshot](https://raw.githubusercontent.com/SagarDhandare/Techno-Health-Project/main/Images/readme%20image/Screenshot.png)
 
 ## Problem Statement
 This data set contains 416 liver patient records and 167 non liver patient records collected from North East of Andhra Pradesh, India. The "Dataset" column is a class label used to divide groups into liver patient (liver disease) or not (no disease). This data set contains 441 male patient records and 142 female patient records.
@@ -33,64 +34,7 @@ Use these patient records to determine which patients have liver disease and whi
 - Heroku
 
   
-## Running Tests
 
-To run app, run the following command
-
-```bash
-  python app.run
-```
-
-  
-## Screenshot
-
-![App Screenshot](https://raw.githubusercontent.com/SagarDhandare/Techno-Health-Project/main/Images/readme%20image/Screenshot.png)
-
-  
-## Deployment
-
-To deploy this project run following command in the project folder
-
-```bash
-  git bash open
-```
-
-Create .git file
-```bash
-  git init
-```
-Track all the files
-```bash
-  git add .
-```
-Cheacking file track or not
-```bash
-  git status
-```
-Store as separate version
-```bash
-  git commit -m 'message'
-```
-### Deployment on Heroku
-
-Heroku login on git bash
-
-```bash
-  heroku login
-```
-Create new app
-
-```bash
-  heroku create
-```
-Push Code
-```bash
-  git remote -v
-```
-Push code to Master Branch
-```bash
-  git push heroku master
-```
 
   
 ## Related
@@ -112,6 +56,14 @@ Here are some related projects
 
 [Medical Insurance Cost](https://github.com/SagarDhandare/Medical-Insurance-Cost-Project)
   
+## Advantages of AI in Healthcare
+
+i. Improved accessibility
+ii. Increased speed and reduced costs
+iii. Enhanced human abilities
+iv. Removing some amount of dependencies on the doctors
+v. To help out the poor and helpless people with the normal medical checkup
+
 ## Feedback
 
 If you have any feedback, please reach out to me at [LinkedIn](https://www.linkedin.com/in/sagardhandare/)
