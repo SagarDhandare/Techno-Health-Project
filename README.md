@@ -31,16 +31,26 @@ This dataset is used to predict whether a patient is likely to get stroke based 
 - Chronic Kidney Disease : The data was taken over a 2-month period in India with 25 features ( eg, red blood cell count, white blood cell count, etc). The target is the 'classification', which is either 'ckd' or 'notckd' - ckd=chronic kidney disease. There are 400 rows. Create machine learning model for predicting whether the patients has chronic kidney disease or not.
 
 
+## Steps followed
+
+- Data Collection
+- Data Analysis
+- Data Visualization
+- Feature Engineering
+- Feature Selection
+- Model Building
+- Model Evalution
+- Hyper Parameter Tunning
+- Creating Pickle file
+- Web App using Flask
+- Deployment
+
 
 ## Technology used
 - Python
 - Machine Learning
 - Pandas
 - Numpy
-- Matplotlib
-- Seaborn
-- RandomizedSearchCV
-- GridSearchCV
 - Scikit-learn
 - Flask
 - HTML
