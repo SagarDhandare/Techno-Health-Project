@@ -13,8 +13,13 @@ This repository consists of files required to deploy a Machine Learning Web App 
 ![App Screenshot](https://raw.githubusercontent.com/SagarDhandare/Techno-Health-Project/main/Images/readme%20image/Screenshot.png)
 
 ## Problem Statement
-This data set contains 416 liver patient records and 167 non liver patient records collected from North East of Andhra Pradesh, India. The "Dataset" column is a class label used to divide groups into liver patient (liver disease) or not (no disease). This data set contains 441 male patient records and 142 female patient records.
 
+- Heart Disease : his data set contains 416 liver patient records and 167 non liver patient records collected from North East of Andhra Pradesh, India. The "Dataset" column is a class label used to divide groups into liver patient (liver disease) or not (no disease). This data set contains 441 male patient records and 142 female patient records.
+Use these patient records to determine which patients have liver disease and which ones do not.
+
+
+
+- Liver Disease : This data set contains 416 liver patient records and 167 non liver patient records collected from North East of Andhra Pradesh, India. The "Dataset" column is a class label used to divide groups into liver patient (liver disease) or not (no disease). This data set contains 441 male patient records and 142 female patient records.
 Use these patient records to determine which patients have liver disease and which ones do not.
 
 
