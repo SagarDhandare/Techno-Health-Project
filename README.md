@@ -7,8 +7,6 @@ All Health Care Model At One Place.
 • https://techno-health-2727b.web.app/
 
 
-
-
 ## Preview
 
 ![App Screenshot](https://raw.githubusercontent.com/SagarDhandare/Techno-Health-Project/main/Images/readme%20image/Screenshot.png)
